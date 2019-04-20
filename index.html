@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700,900|Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+    <title>Сайт-портфолио веб-разработчика Крестьянова Александра</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header__top">
+        <div class="wrapper">
+            <div class="header__container">
+               <div class="logo"><a href="/"><img src="img/logo.png" alt="logo"></a></div>
+               
+                <nav class="menu">
+                    <li><a href="#rezume" class="scrollto"><i class="far fa-address-card"></i>Резюме</a></li>
+                    <li><a href="#skills" class="scrollto"><i class="fas fa-tasks"></i>Навыки</a></li>
+                    <li><a href="#portfolio" class="scrollto"><i class="far fa-images"></i>Портфолио</a></li>
+                    <li><a href="#services" class="scrollto"><i class="far fa-list-alt"></i>Услуги</a></li>
+                    <li><a href=""><i class="fas fa-book-reader"></i>Условия</a></li>
+                    <li><a href="#contacts" class="scrollto"><i class="far fa-id-card"></i>Контакты</a></li>
+                </nav> 
+                <a href="#" class="menu-btn">
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="wrapper">
+            <div class="header__hedader">
+                <div class="hedader__left">
+                    <div class="img-photo">
+                        <div class="img-overlay"></div>
+                    </div>
+                </div>
+                <div class="hedader__right">
+                    <div class="hedader__right_title">Александр Крестьянов<span>web-разработчик</span></div>
+                    <div class="hedader__right_bottom">
+                        <div class="right_button">
+                            <a href=""><i class="fas fa-shopping-basket"></i>заказ услуг</a>
+                            <span>Заполните форму заказа, и я с Вами свяжусь!</span>
+                        </div>
+                        <div class="right_contact">
+                            <div class="contact__phone">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+79827414681">+7 (982) 741 - 46 - 81
+                                    <span>WhatsUp, Viber</span> 
+                                </a>
+                            </div>
+                            <span>Звоните в любое удобное для Вас время</span>
+                            <div class="contact__email">
+                                <i class="fas fa-at"></i>
+                                <a href="mailto:a.v.krestyanov@gmail.com">a.v.krestyanov@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="section__about">
+    <div class="wrapper">
+        <div class="about__container">
+            <h2 id="rezume"><i class="far fa-address-card"></i>Резюме</h2>
+            <p>
+                Здравствуйте, меня зовут Александр!
+            </p>
+            <p>Я занимаюсь версткой и программированием страниц сайта. Верстаю и подключаю формы обратной связи, слайдеры, таймеры, калькуляторы онлайн и другие скрипты, взятые как плагины или написанные лично мной.</p>
+            <p>Опыт работы меньше года, занимаюсь самообразованием, практикой и улучшением имеющихся навыков, изучением новых технологий и сразу применяю их к проектам с которыми работаю,поэтому каждая новая работа, всегда лучше предыдущей.</p>
+            <a href="#table" class="scrollto">
+                <i class="fas fa-angle-double-down open_table"></i>
+            </a>
+            <table class="table__about" id="table">
+                <tr>
+                  <td class="col_type">Статус:</td>
+                  <td class="col_description">Веб-разработчик, фрилансер</td>
+                </tr>
+                <tr>
+                  <td class="col_type">Ф.И.О.:</td>
+                  <td class="col_description">Крестьянов Александр Владимирович</td>
+                </tr>
+                <tr>
+                  <td class="col_type">Возраст</td>
+                  <td class="col_description">23 года</td>
+                </tr>
+                <tr>
+                  <td class="col_type">Специализация:</td>
+                  <td class="col_description">Сайт-визитка, интернет-магазин, сайт католог, корпоративный сайт, промо-сайт, LandingPage, верстка e-mail рассылок, доработка функционала сайта, добавление эффектов на сайт, создание отдельных блоков сайта.</td>
+                </tr>
+                <tr>
+                  <td class="col_type">Опыт работы:</td>
+                  <td class="col_description">Созданием сайтов, версткой и прочее занимаюсь с 2018 года</td>
+                </tr>
+                <tr>
+                  <td class="col_type">Образование:</td>
+                  <td class="col_description">2013-2017гг.
+                      Российский государственный профессионально-педагогический университет
+                      <br> Профиль: Информационные технологии в медиаиндустрии
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col_type">Дополнительное образование:</td>
+                  <td class="col_description">Онлайн курсы и интенсивы: "Интуит", "GeekBrains", "Академия Верстки", "СКБ Контур"
+                      <br>
+                      <a onclick="swa()" type="button">Посмотреть сертификаты</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="col_type">Преимущества:</td>
+                  <td class="col_description">
+                      <ol>
+                        <li >
+                            Тестирование верстки на соответствие стандартам (валидация, кроссбраузерность, адативность)
+                        </li>
+                        <li>
+                            Четкое соблюдение сроков работы, умение доводить работу до конца
+                        </li>
+                        <li>
+                            Чистый аккуратный и по необходимости комментируемый код для программистов
+                        </li>
+                        <li>
+                            Адекватное отношение к правкам
+                        </li>
+                        <li>
+                            Индивидуальный подход (ведение работ будет происходить наиболее удобным для Вас способом)
+                        </li>
+                        <li>
+                            Не беру полную оплату, пока результат Вас полностью не устроит
+                        </li>
+                        <li>
+                            Открытая разработка в режиме реального времени
+                        </li>
+                        <li>
+                            Четкий контроль на всех этапах разработки
+                        </li>
+                    </ol>
+                  </td>
+                </tr>
+            </table>
+            <a href="#rezume" class="scrollto">
+                <i class="fas fa-angle-double-up close_table"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="section__skills">
+    <div class="wrapper">
+            <h2 id="skills">
+                <i class="fas fa-tasks"></i>Мои <span>навыки</span>
+            </h2>
+            <p>
+                Заказывая услуги у меня, вы отдаете свой шаблон в надежные руки, способные сверстать качественный HTML-шаблон, отвечающий всем требованиям современной верстки.
+            </p>
+        <div class="skills__container">
+
+            <div class="skill__item">
+                <img src="img/icon_skills/html.png" alt="html">
+                <div class="skill__description">
+                    <h3>HTML5</h3>
+                    <p>Стандартизированный язык разметки документов в интернете, семантическая, валидная разметка.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="90%" data-percent="90"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/css.png" alt="css">
+                <div class="skill__description">
+                    <h3>CSS3</h3>
+                    <p>Язык описания внешнего вида разметки, совершенный чистый кроссбраузерный код.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="70%" data-percent="70"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/bootstrap.png" alt="bootstrap">
+                <div class="skill__description">
+                    <h3>сетка bootstrap</h3>
+                    <p>Верстаю с применением сетки этого фреймворка. Данный сайт макетирован на 12ти-блочной сетке Bootstrap.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="60%" data-percent="60"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/flexbox.png" alt="flexbox">
+                <div class="skill__description">
+                    <h3>flexbox верстка</h3>
+                    <p>С успехом использую методы и возможности этого фреймворка. Этот сайт построен имеено нем.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="90%" data-percent="90"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/javascript.png" alt="javascript">
+                <div class="skill__description">
+                    <h3>javascript</h3>
+                    <p>Язык программирования высокого уровня, использую для придания интерактивности Вашим веб-страницам.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="40%" data-percent="40"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/jQuery.png" alt="jQuery">
+                <div class="skill__description">
+                    <h3>jQuery</h3>
+                    <p>Настрою плагины для придания интерактивности Вашим веб-страницам. Чаще использую нативный JS.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="40%" data-percent="40"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/php.png" alt="php">
+                <div class="skill__description">
+                    <h3>php</h3>
+                    <p>Наиболее часто применяемый язык программирования для разработки серверной части веб-сайтов и веб-приложений.<br>В стадии дальнейшего изучения.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="5%" data-percent="5"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/wordpress.png" alt="wordpress">
+                <div class="skill__description">
+                    <h3>wordpress</h3>
+                    <p>Самая популярная система управления контентом для веб-сайтов, и ее азы начинаю постигать.<br>В стадии дальнейшего изучения.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="5%" data-percent="5"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/gulp.png" alt="gulp">
+                <div class="skill__description">
+                    <h3>gulp</h3>
+                    <p>При верстке с нуля всегда использую GULP</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="70%" data-percent="70"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/sass.png" alt="sass">
+                <div class="skill__description">
+                    <h3>sass</h3>
+                    <p>Этот препроцессор вызывает большую симпатию. Делаю верстку в основном на нем, используя EMMET для скорости и удобства.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="95%" data-percent="95"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/adapt.png" alt="adapt">
+                <div class="skill__description">
+                    <h3>Адаптивная верстка</h3>
+                    <p>Адаптация под мобильные устройства, планшеты. Один сайт, на всех устройствах.</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="80%" data-percent="80"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill__item">
+                <img src="img/icon_skills/explorer.png" alt="html">
+                <div class="skill__description">
+                    <h3>кроссбраузерность</h3>
+                    <p>IE9+, Microsoft edge, Firefox, Chrome, Opera, Safari, Яндекс.Браузер</p>
+                    <span class="underlined">Уровень владения:</span>
+                    <div class="skill-level">
+                        <div class="circlestat" data-text="69%" data-percent="69"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>        
+    </div>
+</section>
+<section class="section__portfolio">
+    <div class="wrapper">
+        <div class="portfolio__container">
+            <h2 id="portfolio">
+                <i class="far fa-images"></i>Портфолио
+            </h2>
+            <p>На главной странице представлены последние мои разработки.<br>При нажатии на кнопку "Больше работ" вы попадете на страницу со всеми работами.</p>
+            <div class="portfolio__works">
+                <div class="work__box">
+                    <img src="sites_portfolio/001_13.04.19/preview.jpg" alt="001">
+                    <div class="work__btn">
+                        <a href="sites_portfolio/001_13.04.19/index.html" target="_blank">Посмотреть</a>
+                        <a href="#">Хочу такой</a>
+                    </div>
+                    <div class="work__text">
+                        <h4>We are webpaint</h4>
+                        <span>Сайт портфолио</span>
+                        <p>Сайт разработан в качестве личной практики с использованием flexbox с макета .psd.</p>
+                    </div>
+                </div>
+
+                <div class="work__box">
+                    <img src="sites_portfolio/000_12.04.19/preview.png" alt="000">
+                    <div class="work__btn">
+                        <a href="sites_portfolio/000_12.04.19/index.html" target="_blank">Посмотреть</a>
+                        <a href="#">Хочу такой</a>
+                    </div>
+                    <div class="work__text">
+                        <h4>WE BELIEVE IN DESIGN</h4>
+                        <span>Сайт портфолио</span>
+                        <p>Сайт разработан в качестве личной практики с использованием Grid верстки по видеокурсу.</p>
+                    </div>
+                </div>
+
+                <div class="work__box">
+                    <img src="sites_portfolio/-000_08.03.19/preview.png" alt="000">
+                    <div class="work__btn">
+                        <a href="sites_portfolio/-000_08.03.19/index.html" target="_blank">Посмотреть</a>
+                        <a href="#">Хочу такой</a>
+                    </div>
+                    <div class="work__text">
+                        <h4>my company</h4>
+                        <span>Landing Page</span>
+                        <p>Сайт разработан в качестве личной практики с использованием flexbox по видеокурсу.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="portfolio.html">Больше работ...</a>
+        </div>
+    </div>
+</section>
+<section class="section__services">
+    <div class="wrapper">
+        <h2 id="services"><i class="far fa-list-alt"></i>Услуги | Порядок работы</h2>
+        <p>
+            Стоимость услуг оговаривается с каждым заказчиком индивидуально, после знакомства с макетом сайта. <br>
+            Ниже представлен порядок работы с заказчиком, после Вы можете ознакомится дополнительно: с техническими требованиями к верстке, техническими требованиями к дизайну-макетов от дизайнеров и способам оплаты.
+        </p>
+        <div class="services__block">
+
+        <div class="block_service">
+            <div class="services__num"> <!--Карточка с номером-->
+                <div class="num__visible">
+                    <h3>1</h3>
+                </div>
+                <div class="num__hover">
+                    <p>Обсуждение деталей проекта. Составление ТЗ.</p>
+                </div>
+            </div><!--Конец карточки-->
+        </div>
+        <div class="block_service">
+            <div class="services__num"> <!--Карточка с номером-->
+                <div class="num__visible">
+                    <h3>2</h3>
+                </div>
+                <div class="num__hover">
+                    <p>Составление плана работы над проектом.</p>
+                </div>
+            </div><!--Конец карточки-->
+        </div>
+        <div class="block_service">
+            <div class="services__num"> <!--Карточка с номером-->
+                <div class="num__visible">
+                    <h3>3</h3>
+                </div>
+                <div class="num__hover">
+                    <p>Предоплата за работу.<br><span><a href="#">Подробнее...</a></span></p>
+                </div>
+            </div><!--Конец карточки-->
+        </div>
+        <div class="block_service">
+            <div class="services__num"> <!--Карточка с номером-->
+                <div class="num__visible">
+                    <h3>4</h3>
+                </div>
+                <div class="num__hover">
+                    <p>Предоставление ссылки клиенту для контроля работы.</p>
+                </div>
+            </div><!--Конец карточки-->
+        </div>
+        <div class="block_service">
+            <div class="services__num"> <!--Карточка с номером-->
+                <div class="num__visible">
+                    <h3>5</h3>
+                </div>
+                <div class="num__hover">
+                    <p>Верстка проекта в режиме реального времени.</p>
+                </div>
+            </div><!--Конец карточки-->
+        </div>
+        <div class="block_service six">
+                <div class="services__num"> <!--Карточка с номером-->
+                    <div class="num__visible">
+                        <h3>6</h3>
+                    </div>
+                    <div class="num__hover">
+                        <p>Предоставление демо-результата заказчику.</p>
+                    </div>
+                </div><!--Конец карточки-->
+            </div>
+            <div class="block_service seven">
+                <div class="services__num"> <!--Карточка с номером-->
+                    <div class="num__visible">
+                        <h3>7</h3>
+                    </div>
+                    <div class="num__hover">
+                        <p>Продолжение верстки по принятым правкам от заказчика.</p>
+                    </div>
+                </div><!--Конец карточки-->
+            </div>
+            <div class="block_service eight">
+                <div class="services__num"> <!--Карточка с номером-->
+                    <div class="num__visible">
+                        <h3>8</h3>
+                    </div>
+                    <div class="num__hover">
+                        <p>Тестирование верстки (кроссбраузерность, валидный код).</p>
+                    </div>
+                </div><!--Конец карточки-->
+            </div>
+            <div class="block_service nine">
+                <div class="services__num"> <!--Карточка с номером-->
+                    <div class="num__visible">
+                        <h3>9</h3>
+                    </div>
+                    <div class="num__hover">
+                        <p>Постоплата готового проекта. Закрытие сделки.</p>
+                    </div>
+                </div><!--Конец карточки-->
+            </div>
+            <div class="block_service ten">
+                <div class="services__num"> <!--Карточка с номером-->
+                    <div class="num__visible">
+                        <h3>10</h3>
+                    </div>
+                    <div class="num__hover">
+                        <p>Отправка сверстанного макета заказчику работы.</p>
+                    </div>
+                </div><!--Конец карточки-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section__contacts">
+    <div class="wrapper">
+        <h2 id="contacts"><i class="far fa-id-card"></i>Контакты</h2>
+        <div class="contacts__container">
+            <div class="contacts__result">
+                <h3>Итого</h3>
+                <p>На данном этапе я делаю свою работу не дорого. В верстку уже входит адаптция под мобильные устройства. Начальная цена верстки (главной страницы) от 2000р. Далее цены обсуждаются индивидуально.</p>
+                <h4>Спросите почему не дорого?</h4>
+                <p> - Я нуждаюсь в работах для моего портфолио, как показатель своей компетентности и профессионализма в этом деле.</p>
+                <p>Для того чтобы уточнить цену, мне необходимо увидеть объем работы и оценить ее, для этого прикрепите Ваш дизайн в данной форме, есть есть ТЗ, так же его прикрепит (архив), укажите данные для связи и отправьте мне. Если нету дизайна, просто свяжитесь со мной воспользовавшись этой же формой, опишите желаемое количество блоков, примеры похожишь сайтов и т.д.</p>
+                <p>Если у вас нету ТЗ, можете <a href="#">скачать бриф</a>, заполнить и отправить мне.</p>
+            </div>
+            <div class="contacts__forms">
+                <form class="formBox">
+                    <div class="inputBox">
+                        <label class="labelText">Ваше имя:</label>
+                        <input type="text" class="userInput" required>
+                    </div>
+                    <div class="inputBox">
+                        <label class="labelText">E-mail:</label>
+                        <input type="text" class="userInput" required>
+                    </div>
+                    <div class="inputBox">
+                        <label class="labelText">Номер телефона:</label>
+                        <input type="phone" class="userInput" required pattern="\d+">
+                    </div>
+                    <div class="inputBox">
+                        <label class="labelText">Сообщение:</label>
+                        <textarea type="message" class="userInput" required></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <label>
+                            <span>Есть ли у Вас макет | ТЗ?</span>
+                            <input type="file" name="file" id="uploade-file">
+                        </label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="checkbox" required>
+                        <label class="personalDoc">Я согласен на обработку моих <a href="#">персональных данных</a></label>
+                    </div>
+                    <input type="submit" value="Отправить" class="button">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section__social">
+    <div class="social">
+    <div class="dws-button dws-vk">
+        <a href="https://vk.com/sanya.krestyanov" target="_blank">
+        <div class="dws-share"><i class="fab fa-vk"></i></div>
+        </a>
+    </div>
+    <div class="dws-button dws-odnoklassniki">
+        <a href="https://ok.ru/a.krestyanov" target="_blank">
+        <div class="dws-share"><i class="fab fa-odnoklassniki"></i></div>
+        </a>
+    </div>
+    <div class="dws-button dws-youtube">
+        <a href="https://www.youtube.com/channel/UCEpMB9dWt1uLVUlbeKfTXPQ" target="_blank">
+        <div class="dws-share"><i class="fab fa-youtube"></i></div>
+        </a>
+    </div>
+    <div class="dws-button dws-envelope">
+        <a href="mailto:a.v.krestyanov@gmail.com" target="_blank">
+        <div class="dws-share"><i class="far fa-envelope"></i></div>
+        </a>
+    </div>
+</div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <div class="footer__left">  
+                <div class="logo"><img src="img/logo.png" alt="logo"></div>
+                <p>Профессиональная верстка сайтов по PSD макетам на заказ. Верстка сайтов, интернет-магазинов и Landing Page (валидно, кроссбраузерно, адаптивно), временно не беру посадку на CMS WordPress.
+                </p>
+                <a href="#">Заказать верстку</a>
+            </div>
+            <nav class="footer__menu">
+                <h2>навигация</h2>
+                <li><a href="#rezume" class="scrollto">Резюме</a></li>
+                <li><a href="#skills" class="scrollto">Навыки</a></li>
+                <li><a href="#portfolio" class="scrollto">Портфолио</a></li>
+                <li><a href="#services" class="scrollto">Услуги</a></li>
+                <li><a href="">Условия</a></li>
+                <li><a href="">Контакты</a></li>
+            </nav> 
+            <div class="footer__info">
+                <h2>Информация</h2>
+                <ul>
+                    <li><a href="#">Условия использования сайта</a></li>
+                    <li><a href="#">Политика конфидициальности</a></li>
+                    <li><a href="#">Технические требования к макету</a></li>
+                    <li><a href="#">Технические требования к верстке</a></li>
+                </ul>
+                <span class="separator"></span>
+                <h2>Принимаю к оплате</h2>
+                <div class="card_pay">
+                    <img src="img/cards_pay/visa.png" alt="visa">
+                    <img src="img/cards_pay/mastercard.png" alt="mastercard">
+                    <img src="img/cards_pay/webmoney.png" alt="webmoney">
+                    <img src="img/cards_pay/yandexmoney.png" alt="yandexmoney">
+                </div>
+            </div>
+            <div class="footer__contact">
+                <h2>Контакты</h2>
+                <i class="fas fa-phone"></i><a href="tel:+79827414681"> +7 (982) 741 - 46 - 81</a><br>
+                <i class="fas fa-at"></i><a href="mailto:a.v.krestyanov@gmail.com"> a.v.krestyanov@gmail.com</a><br>
+                <i class="far fa-clock"> Работаю с 8-00 до 20:00 (по МСК)</i> <br>
+                Выходные: плавающие, зависят от заказов
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer__bottom">
+    <p>© Александр Крестьянов 2019г. <a href="http://legalacts.ru/kodeks/GK-RF-chast-4/razdel-vii/" target="_blank">Все авторские права защищены.</a></p>
+    <p>Копирование любых материалов сайта строго запрещено - ознакомиться с <a href="">Условиями использования сайта</a></p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
